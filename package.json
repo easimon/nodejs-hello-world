@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "github@spam.dobel.click",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
