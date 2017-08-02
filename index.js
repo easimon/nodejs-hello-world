@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
   if (req.url != '/') {
     console.log(`URL ${req.url} invalid.`)
     res.writeHead(404, { 'Content-Type': 'text/plain'})
-    res.end('Not foundz.')
+    res.end('Not found.')
     return
   }
   counter++
